@@ -30,7 +30,11 @@ const Home = () => {
         </header>
       </div>
 
-      <RightSiderbar user={loggedIn} transactions={[]} banks={[{}, {}]} />
+      <RightSiderbar
+        user={loggedIn}
+        transactions={[]}
+        banks={[{ currentBalance: 124.4 }, { currentBalance: 401.23 }]}
+      />
     </section>
   );
 };
